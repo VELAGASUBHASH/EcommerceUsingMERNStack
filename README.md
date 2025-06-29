@@ -1,27 +1,31 @@
 🛒 E-Commerce Website (MERN Stack)
 A full-featured, production-grade E-Commerce Web Application built with the MERN Stack, integrated with Stripe for payments, JWT authentication with cookies, Zustand for state management, Redis for access token control, and admin/customer dashboards with live chat support.
 
-Live Demo: [https://your-ecommerce-site.com](https://ecommerce-4ljp.onrender.com/)
+
 
 📸 Project Preview
 🧑‍💻 Customer Interface
-![Screenshot 2025-06-29 190847](https://github.com/user-attachments/assets/4f0b70fb-4805-48dd-88ef-dc517a0396fd)
-![Screenshot 2025-06-29 190833](https://github.com/user-attachments/assets/ba4c7847-bfe3-45ba-bbb5-6e38e98cd3c3)
-![Screenshot 2025-06-29 190913](https://github.com/user-attachments/assets/18e0c01d-9721-40a1-ad35-dd24a92f0da4)
-![Screenshot 2025-06-29 191037](https://github.com/user-attachments/assets/4a50996f-5b38-440e-8421-a17dcebaff43)
-![Screenshot 2025-06-29 191050](https://github.com/user-attachments/assets/58cf3746-2e1f-4ce8-a921-0495a078bd62)
-![Screenshot 2025-06-29 191426](https://github.com/user-attachments/assets/6e5185fc-4d78-4042-a6aa-1d5af6c507d3)
+![Screenshot 2025-06-29 190833](https://github.com/user-attachments/assets/bc7a84f0-bcf6-48ca-9696-7ee924106e6b)
+![Screenshot 2025-06-29 190847](https://github.com/user-attachments/assets/de69de98-ed85-405b-83b2-50f9ade46e86)
+![Screenshot 2025-06-29 190859](https://github.com/user-attachments/assets/23028722-7262-4de1-ba9b-8864327a9c6e)
+![Screenshot 2025-06-29 190913](https://github.com/user-attachments/assets/85f10ba1-807e-4b57-9d3a-7e73ecf5f0f4)
+![Screenshot 2025-06-29 191037](https://github.com/user-attachments/assets/85fe3e9a-efd4-4449-a517-1b8949382578)
+![Screenshot 2025-06-29 191050](https://github.com/user-attachments/assets/3e345560-3a43-4eb5-9a68-a7bc95dcc444)
+![Screenshot 2025-06-29 191426](https://github.com/user-attachments/assets/f96a44b9-ecf5-4b83-87d2-fc94db0e4f7d)
 
 🛍️ Product Page
-![Screenshot 2025-06-29 190859](https://github.com/user-attachments/assets/8a8e70da-1af3-44c3-8e06-9565847c87df)
+![Screenshot 2025-06-29 190859](https://github.com/user-attachments/assets/ec805104-5c7a-4764-9ce2-88858b3f6aee)
+
 💳 Stripe Checkout
-![Screenshot 2025-06-29 191201](https://github.com/user-attachments/assets/8d217797-5ee8-4a70-96fa-3430dc216601)
-![Screenshot 2025-06-29 191218](https://github.com/user-attachments/assets/f5d32726-afdb-4bae-b7d6-59a178440217)
-![Screenshot 2025-06-29 191303](https://github.com/user-attachments/assets/ddd0e0f8-0636-4348-b30b-d77bbf5fb866)
+![Screenshot 2025-06-29 191201](https://github.com/user-attachments/assets/33c9b754-f225-49fa-b4ad-a5db909ddba3)
+![Screenshot 2025-06-29 191218](https://github.com/user-attachments/assets/c6a2408a-a33b-4ade-b42f-56c7649bde7f)
+![Screenshot 2025-06-29 191303](https://github.com/user-attachments/assets/f455ca52-d117-4855-a359-d11da96c6b5e)
+
 🛠️ Admin Dashboard
-![Screenshot 2025-06-29 191341](https://github.com/user-attachments/assets/eb416e0c-3ba8-4ab5-8e54-47d185fafdbf)
-![Screenshot 2025-06-29 191354](https://github.com/user-attachments/assets/8a9d4f71-dff7-4b98-8ad3-e946c0b00ded)
-![Screenshot 2025-06-29 191407](https://github.com/user-attachments/assets/58fb8d22-4fe9-4a06-bb29-21ba759ffd9f)
+![Screenshot 2025-06-29 191341](https://github.com/user-attachments/assets/d8b8fc8f-6f9d-4d26-b153-48648e454df6)
+![Screenshot 2025-06-29 191354](https://github.com/user-attachments/assets/082a0ae4-8b19-49b8-af1b-02276dd85027)
+![Screenshot 2025-06-29 191407](https://github.com/user-attachments/assets/ed8e50b0-0a52-48aa-b76f-9bc21170252d)
+
 🚀 Features
 👥 Authentication & User Management
 Signup/Login with JWT & Cookies
@@ -155,8 +159,7 @@ Redis: Upstash / Render
 
 Cloudinary: Image hosting
 
-✅ Live Site: https://your-ecommerce-site.com](https://ecommerce-4ljp.onrender.com/
-🔧 Admin Panel: https://your-ecommerce-site.com](https://ecommerce-4ljp.onrender.com/admin
+
 
 🤝 Contributions
 Pull requests are welcome! For major changes, please open an issue first.
