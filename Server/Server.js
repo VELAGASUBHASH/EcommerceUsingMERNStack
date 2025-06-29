@@ -19,10 +19,16 @@ const app = express();
 const __dirname = path.resolve();
 
 
+const allowedOrigins = [
+  'http://localhost:5173',
+  'https://ecommerce-4ljp.onrender.com'
+];
+
 app.use(cors({
-    origin: 'http://localhost:5173',
-    credentials: true 
+  origin: allowedOrigins,
+  credentials: true
 }));
+
 app.use(express.json({ limit: '10mb' }));
 app.use(cookieParser());
 
@@ -33,13 +39,13 @@ app.use("/coupons",CouponsRoute);
 app.use("/payment",PaymentRoute);
 app.use("/analytics",AnalyticsRoute);
 
-if(process.env.NODE_ENV === "production"){
-    app.use(express.static(path.join(__dirname,"/Client/dist")));
-
-    app.get("*",(req,res)=>{
-        res.sendFile(path.resolve(__dirname,"Client","dist","index.html"));
-    })
+if (process.env.NODE_ENV === "production") {
+  app.use(express.static(path.join(__dirname, "/Client/dist")));
+  app.get("*", (req, res) => {
+    res.sendFile(path.resolve(__dirname, "Client", "dist", "index.html"));
+  });
 }
+
 
 mongoose.connect(process.env.MONGO_URL)
     .then(()=>{
